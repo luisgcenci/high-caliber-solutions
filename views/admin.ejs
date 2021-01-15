@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/admin.css">
+	<title>Document</title>
+</head>
+<body id="admin-body">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="test">Admin Panel</h1>
+			</div>
+		</div>
+	</div>
+	<div class="row sidebar-row">
+		<div class="col-sm-2 sidebar-col">
+			<%- include('admin_sidebar.ejs'), {all_collections:all_collections} %>
+		</div>
+		<div class="col-sm-9">
+			<%- include('admin_dynamic_section.ejs'), {collection_to_display:collection_to_display} %>
+		</div>
+	</div>
+</body>
+</html>
