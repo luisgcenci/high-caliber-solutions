@@ -17,4 +17,13 @@ html {
     color: #D1232C;
 }
 
+.footer-01 .btn{
+    color: rgb(165, 165, 165);
+    width:50%;
+}
+
+.footer-01 .btn:hover{
+    color:#fff;
+    background-color: #b90009;
+}
 
