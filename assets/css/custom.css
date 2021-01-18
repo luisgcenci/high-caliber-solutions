@@ -2,3 +2,19 @@
     max-width:200px;
     max-height:auto;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.header-logo span{
+    color: #D1232C;
+}
+
+

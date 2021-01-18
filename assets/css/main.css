@@ -261,7 +261,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #f0542c;
+    color: #D1232C;
 }
 
 a:focus {
@@ -270,12 +270,12 @@ a:focus {
 
 ::-moz-selection {
     color: #fff;
-    background-color: #f0542c;
+    background-color: #D1232C;
 }
 
 ::selection {
     color: #fff;
-    background-color: #f0542c;
+    background-color: #D1232C;
 }
 
 .md-section {
@@ -358,7 +358,7 @@ textarea:-ms-input-placeholder, select:-ms-input-placeholder {
 
 input:not([type="button"]):not([type="submit"]):not([type="radio"]):not([type="checkbox"]):not([type="color"]):focus,
 textarea:focus, select:focus {
-    border-color: #f0542c;
+    border-color: #D1232C;
 }
 
 input:not([type="button"]):not([type="submit"]):not([type="radio"]):not([type="checkbox"]):not([type="color"])[disabled],
@@ -494,11 +494,11 @@ mark, .mark {
 }
 
 .btn-primary {
-    background-color: #f0542c;
+    background-color: #D1232C;
 }
 
 .btn-primary:hover {
-    background-color: #da390f;
+    background-color: rgb(192, 2, 11);
 }
 
 .btn-danger {
@@ -679,7 +679,7 @@ mark, .mark {
 --------------------------------------------------------------------------------*/
 
 .cta-02 {
-    background-color: #f0542c;
+    background-color: #D1232C;
     padding: 20px 0;
 }
 
@@ -776,7 +776,7 @@ mark, .mark {
 }
 
 .gallery__overlay {
-    background-color: rgba(240, 84, 44, .8);
+    background-color: rgba(209, 35, 44, .8);
     width: 0;
     right: 0;
     bottom: 0;
@@ -1553,7 +1553,7 @@ mark, .mark {
 
 .quote-02 {
     max-width: 300px;
-    background-color: #f0542c;
+    background-color: #D1232C;
     border: 5px solid #fff;
     padding: 20px;
     margin: 0;
@@ -1607,7 +1607,7 @@ mark, .mark {
 }
 
 .quote__style-02 {
-    border-left: 2px solid #f0542c;
+    border-left: 2px solid #D1232C;
     background-color: transparent;
     padding: 0 10px;
 }
@@ -1690,7 +1690,7 @@ mark, .mark {
 }
 
 .services__title:hover {
-    color: #f0542c;
+    color: #D1232C;
 }
 
 .services__img {
@@ -2296,7 +2296,7 @@ mark, .mark {
     border-radius: 50%;
     background-color: #222;
     margin: 5px;
-    background-color: #f0542c;
+    background-color: #D1232C;
     color: #fff;
 }
 
@@ -2389,7 +2389,7 @@ mark, .mark {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(240, 84, 44, .9);
+    background-color: rgba(209, 35, 44, .9);
     visibility: hidden;
     opacity: 0;
     transition: all .3s ease;
@@ -2433,14 +2433,14 @@ mark, .mark {
 }
 
 .sec-title__title span {
-    color: #f0542c;
+    color: #D1232C;
 }
 
 .sec-title__divider {
     display: block;
     width: 40px;
     height: 2px;
-    background-color: #f0542c;
+    background-color: #D1232C;
 }
 
 .sec-title__lg-title .sec-title__title {
@@ -2495,7 +2495,7 @@ mark, .mark {
 
 .widget-contact__title {
     text-transform: capitalize;
-    color: #f0542c;
+    color: #D1232C;
 }
 
 .widget-contact__text {
@@ -2661,12 +2661,12 @@ mark, .mark {
 
 .widget-list-02 li a:hover {
     color: #fff;
-    background-color: #f0542c;
+    background-color: #D1232C;
 }
 
 .widget-list-02 li.current a {
     color: #fff;
-    background-color: #f0542c;
+    background-color: #D1232C;
 }
 
 .widget-list-02__submenu li a {
@@ -2680,7 +2680,7 @@ mark, .mark {
     left: 10px;
     width: 30px;
     height: 1px;
-    background-color: #f0542c;
+    background-color: #D1232C;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
 }
@@ -2709,7 +2709,7 @@ mark, .mark {
     left: 0;
     top: 50%;
     font-family: 'FontAwesome';
-    color: #f0542c;
+    color: #D1232C;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
 }
@@ -2774,7 +2774,7 @@ mark, .mark {
 }
 
 .widget-post__title:hover {
-    color: #f0542c;
+    color: #D1232C;
 }
 
 .widget-post__date {
@@ -2822,7 +2822,7 @@ mark, .mark {
 }
 
 .widget-product__title:hover {
-    color: #f0542c;
+    color: #D1232C;
 }
 
 .widget-product__price {
@@ -2883,8 +2883,8 @@ mark, .mark {
 }
 
 .widget-tag a:hover {
-    background-color: #f0542c;
-    border-color: #f0542c;
+    background-color: #D1232C;
+    border-color: #D1232C;
     color: #fff;
 }
 
@@ -2910,13 +2910,13 @@ mark, .mark {
 }
 
 .widget-twitter__title:hover {
-    color: #f0542c;
+    color: #D1232C;
 }
 
 .widget-twitter__sub a {
     display: block;
     font-size: 13px;
-    color: #f0542c;
+    color: #D1232C;
 }
 
 .widget-twitter__sub a:hover {
@@ -3056,7 +3056,7 @@ mark, .mark {
 }
 
 .searchbar__addon {
-    color: #f0542c;
+    color: #D1232C;
     background-color: transparent;
     border: 0;
     padding: 6px 12px;
@@ -3152,7 +3152,7 @@ mark, .mark {
 
 .search-btn {
     color: #fff;
-    background-color: #f0542c;
+    background-color: #D1232C;
 }
 
 .header-menu__toggle {
@@ -3217,7 +3217,7 @@ mark, .mark {
     }
 
     .raising-nav li:hover > a {
-        color: #f0542c;
+        color: #D1232C;
     }
 
     .raising-nav .raising-menu .sub-menu {
@@ -3280,12 +3280,12 @@ mark, .mark {
 
     .raising-nav .raising-menu .sub-menu .current-menu-parent > a,
     .raising-nav .raising-menu .sub-menu .current-menu-item > a {
-        color: #f0542c;
+        color: #D1232C;
     }
 
     .raising-nav .raising-menu .current-menu-parent > a,
     .raising-nav .raising-menu .current-menu-item > a {
-        color: #f0542c;
+        color: #D1232C;
     }
 
     .raising-nav .raising-menu .sub-menu {
@@ -3427,7 +3427,7 @@ mark, .mark {
     right: 0;
     width: 0;
     height: 2px;
-    background-color: #f0542c;
+    background-color: #D1232C;
     margin: 0 auto;
     visibility: hidden;
     opacity: 0;
@@ -3441,7 +3441,7 @@ mark, .mark {
 }
 
 .raising-nav li.current a {
-    color: #f0542c;
+    color: #D1232C;
 }
 
 .raising-menu.active ~ .navbar-toggle span:nth-child(1) {
@@ -3506,11 +3506,11 @@ mark, .mark {
     line-height: 50px;
     font-size: 20px;
     text-align: center;
-    background-color: rgba(240, 84, 44, .6);
+    background-color: rgba(209, 35, 44, .6);
 }
 
 .hero .swiper-button-custom > div:hover {
-    background-color: #f0542c;
+    background-color: #D1232C;
     color: #fff;
 }
 
@@ -3573,6 +3573,7 @@ mark, .mark {
     font-size: 16px;
     color: #fff;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 @media (min-width: 320px) {
@@ -3826,7 +3827,7 @@ ol, ul {
 }
 
 .filter__list li.current a {
-    color: #f0542c !important;
+    color: #D1232C !important;
 }
 
 @media (min-width: 769px) {
@@ -3893,7 +3894,7 @@ ol, ul {
 }
 
 .swiper-pagination-custom .swiper-pagination-bullet-active {
-    background-color: #f0542c;
+    background-color: #D1232C;
 }
 
 .swiper-fix-padding {

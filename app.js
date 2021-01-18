@@ -78,6 +78,8 @@ app.post('/sendemail/', function(req,res){
 
     var transporter = nodemailer.createTransport({
         service: process.env.NODEMAILER_SERVICE,
+        port: 587,
+        secure:false,
         auth:{
             user:process.env.NODEMAILER_USER,
             pass:process.env.NODEMAILER_PASS
@@ -86,10 +88,10 @@ app.post('/sendemail/', function(req,res){
 
     var mailOptions = {
 
-        from:'luisgcenci@gmail.com',
-        to: email,
+        from:process.env.NODEMAILER_USER,
+        to: process.env.NODEMAILER_TO,
         subject: subject,
-        text: message
+        text: message + '\n\nfrom: ' + email
     };
 
     transporter.sendMail(mailOptions, function(err, info){
